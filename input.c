@@ -17,7 +17,7 @@ int main () {
     Basic Conditional Input Question 
     ---------------------------------
     printf("How much cars does Cafar have? ");
-    integer n;
+    int n;
     scanf("%d", &n);
     if (n==2) {
         printf("Correct, Cafer has %d cars\n", n); 
