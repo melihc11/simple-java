@@ -17,10 +17,10 @@ int main () {
     Basic Conditional Input Question 
     ---------------------------------
     printf("How much cars does Cafar have? ");
-    float n;
-    scanf("%f", &n);
+    integer n;
+    scanf("%d", &n);
     if (n==2) {
-        printf("Correct, Cafer has %f cars\n", n); 
+        printf("Correct, Cafer has %d cars\n", n); 
     }
     if (n>2){
         printf ("Incorrect, He's not that rich yet");
